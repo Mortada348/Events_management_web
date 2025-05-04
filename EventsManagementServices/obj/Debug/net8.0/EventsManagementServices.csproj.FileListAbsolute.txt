@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\bin\Debug\net8.0\EventsManagementServices.deps.json
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\bin\Debug\net8.0\EventsManagementServices.runtimeconfig.json
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\bin\Debug\net8.0\EventsManagementServices.dll
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\bin\Debug\net8.0\EventsManagementServices.pdb
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\bin\Debug\net8.0\EventsManagementCore.dll
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\bin\Debug\net8.0\EventsManagementCore.pdb
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\obj\Debug\net8.0\EventsManagementServices.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\obj\Debug\net8.0\EventsManagementServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\obj\Debug\net8.0\EventsManagementServices.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\obj\Debug\net8.0\EventsManagementServices.AssemblyInfo.cs
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\obj\Debug\net8.0\EventsManagementServices.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\obj\Debug\net8.0\EventsMa.59031A86.Up2Date
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\obj\Debug\net8.0\EventsManagementServices.dll
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\obj\Debug\net8.0\refint\EventsManagementServices.dll
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\obj\Debug\net8.0\EventsManagementServices.pdb
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\obj\Debug\net8.0\EventsManagementServices.genruntimeconfig.cache
+C:\Users\user\source\repos\Hello World\EventsManagement\EventsManagementServices\obj\Debug\net8.0\ref\EventsManagementServices.dll

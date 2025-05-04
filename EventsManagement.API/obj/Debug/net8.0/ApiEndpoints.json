@@ -1,0 +1,420 @@
+[
+  {
+    "ContainingType": "EventsManagement.API.Controllers.AdminsController",
+    "Method": "CreateAdmins",
+    "RelativePath": "Admins/CreateAdmins",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "admin",
+        "Type": "EventsManagementServices.DTO._Admins",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.AdminsController",
+    "Method": "DeleteAdmin",
+    "RelativePath": "Admins/DeleteAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AdminId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.AdminsController",
+    "Method": "GetAdminById",
+    "RelativePath": "Admins/GetAdminById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AdminId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.AdminsController",
+    "Method": "GetAllAdmins",
+    "RelativePath": "Admins/GetAdmins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.AdminsController",
+    "Method": "UpdateAdmin",
+    "RelativePath": "Admins/UpdateAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "admin",
+        "Type": "EventsManagementServices.DTO._Admins",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.EventsController",
+    "Method": "CreateEvent",
+    "RelativePath": "Events/CreateEvent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Event",
+        "Type": "EventsManagementServices.DTO._Events",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.EventsController",
+    "Method": "DeleteEvent",
+    "RelativePath": "Events/DeleteEvent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EventId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.EventsController",
+    "Method": "EnrollUserInEvent",
+    "RelativePath": "Events/EnrollUserInEvent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userEvent",
+        "Type": "EventsManagementServices.DTO._UserEvent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.EventsController",
+    "Method": "GetAllEvents",
+    "RelativePath": "Events/GetAllEvents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.EventsController",
+    "Method": "GetEventById",
+    "RelativePath": "Events/GetEventById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EventId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.EventsController",
+    "Method": "GetLatestEvents",
+    "RelativePath": "Events/GetLatestEvents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.EventsController",
+    "Method": "UpdateEvent",
+    "RelativePath": "Events/UpdateEvent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Event",
+        "Type": "EventsManagementServices.DTO._Events",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.EventsController",
+    "Method": "UploadFile",
+    "RelativePath": "Events/UploadUserImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.LoginController",
+    "Method": "AdminLogin",
+    "RelativePath": "Login/AdminLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authExtender",
+        "Type": "EventsManagementCore.Models.Extenders.AuthExtender",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "Login/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authExtender",
+        "Type": "EventsManagementCore.Models.Extenders.AuthExtender",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.LookUpsController",
+    "Method": "CreateLookUp",
+    "RelativePath": "LookUps/CreateLookUp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lookUp",
+        "Type": "EventsManagementServices.DTO._Lookups",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.LookUpsController",
+    "Method": "DeleteLookUp",
+    "RelativePath": "LookUps/DeleteLookUp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "LookUpId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.LookUpsController",
+    "Method": "GetAllLookUps",
+    "RelativePath": "LookUps/GetAllLookUps",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.LookUpsController",
+    "Method": "GetLookUpById",
+    "RelativePath": "LookUps/GetLookUpById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "LookUpId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.LookUpsController",
+    "Method": "GetLookUpByParentId",
+    "RelativePath": "LookUps/GetLookUpByParentId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ParentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.LookUpsController",
+    "Method": "GetParentLookUps",
+    "RelativePath": "LookUps/GetParentLookups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.LookUpsController",
+    "Method": "UpdateLookUp",
+    "RelativePath": "LookUps/UpdateLookUp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lookUp",
+        "Type": "EventsManagementServices.DTO._Lookups",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.RolesController",
+    "Method": "GetAllRoles",
+    "RelativePath": "Roles/GetAllRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.UsersController",
+    "Method": "CreateUsers",
+    "RelativePath": "Users/CreateUsers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "EventsManagementServices.DTO._Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.UsersController",
+    "Method": "DeleteUser",
+    "RelativePath": "Users/DeleteUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.UsersController",
+    "Method": "GetUsers",
+    "RelativePath": "Users/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TypeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.UsersController",
+    "Method": "GetUserById",
+    "RelativePath": "Users/GetUserById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventsManagement.API.Controllers.UsersController",
+    "Method": "UpdateUser",
+    "RelativePath": "Users/UpdateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "EventsManagementServices.DTO._Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
